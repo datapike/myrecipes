@@ -10,3 +10,12 @@ description: text
 - description must be present
 - description must be 20-500 chars
 - chef_id must be present
+
+chefname: string
+email: string
+
+- chefname must be present
+- chefname must be 3-40 chars
+- email must be present
+- email must be unique
+- email must be valid
